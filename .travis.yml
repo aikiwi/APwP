@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.8.5"
+  - "nightly"
+install:
+  - "pip install pytest"
+script: python -m pytest test_allocate.py
