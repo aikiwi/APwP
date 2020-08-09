@@ -3,7 +3,7 @@ language: python
 python: 3.8
 
 install:
-- pip3 install sqlalchemy
+- pip3 install sqlalchemy requests
 
 script:
 - make test
