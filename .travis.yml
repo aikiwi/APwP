@@ -3,7 +3,7 @@ language: python
 python: 3.8
 
 install:
-- pip3 install sqlalchemy requests
+- pip3 install sqlalchemy flask psycopg2 requests
 
 script:
 - make test
