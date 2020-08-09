@@ -13,4 +13,4 @@ logs:
 down:
 	docker-compose down
 
-all: down build up test
+all: down build up test down
